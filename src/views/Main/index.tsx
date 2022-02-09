@@ -85,8 +85,10 @@ const MainPage: React.FC = () => {
           </a>
         </div>
       </div>
+      <div className="min-h-screen flex flex-col pt-32">
+        <div className="text-6xl font-black">What I do?</div>
+      </div>
     </div>
   )
 }
-
 export default MainPage
