@@ -85,8 +85,48 @@ const MainPage: React.FC = () => {
           </a>
         </div>
       </div>
+      <div className="min-h-[50vh] flex flex-col pt-32">
+        <div className="text-6xl font-black">
+          <h1>Me?</h1>
+          <div className='mt-24 flex gap-10'>
+            <div className='grid justify-items-center'>
+              <a href='https://www.kyungheeboy.hs.kr/' target='_blank'>
+                <img src={require('../../assets/Kyunghee.png')} alt='' className='w-24 h-24 rounded-2xl' />
+              </a>
+              <h1 className='text-xl mt-5 font-thin'>경희고등학교 22학번</h1>
+              <h1 className='text-sm mt-2 font-light'>2022 ~</h1>
+            </div>
+            <div className='grid justify-items-center'>
+              <a href='https://yhs.kr/YBOT/' target='_blank'>
+                <img src={require('../../assets/YBOT.png')} alt='' className='w-24 h-24 rounded-2xl' />
+              </a>
+              <h1 className='text-xl mt-5 font-thin'>YBOT 1기 개발자</h1>
+              <h1 className='text-sm mt-2 font-light'>2022 ~</h1>
+            </div>
+            <div className='grid justify-items-center'>
+              <a href='https://official-website.spacedev.space/' target='_blank'>
+                <img src={require('../../assets/SpaceDEV.png')} alt='' className='w-24 h-24 rounded-2xl' />
+              </a>
+              <h1 className='text-xl mt-5 font-thin'>SpaceDEV Co-Leader</h1>
+              <h1 className='text-sm mt-2 font-light'>2020 ~</h1>
+            </div>
+            <div className='grid justify-items-center'>
+              <img src={require('../../assets/UniqueCode.jpg')} alt='' className='w-24 h-24 rounded-2xl' />
+              <h1 className='text-xl mt-5 font-thin'>UniqueCode Leader</h1>
+              <h1 className='text-sm mt-2 font-light'>2020 ~ 2022</h1>
+            </div>
+            <div className='grid justify-items-center'>
+              <img src={require('../../assets/FreeAI.png')} alt='' className='w-24 h-24 rounded-2xl' />
+              <h1 className='text-xl mt-5 font-thin'>FreeAI Developer</h1>
+              <h1 className='text-sm mt-2 font-light'>2020 ~ 2022</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="min-h-screen flex flex-col pt-32">
-        <div className="text-6xl font-black">What I do?</div>
+        <div className="text-6xl font-black">
+          <h1>What I do?</h1>
+        </div>
       </div>
     </div>
   )
