@@ -88,7 +88,7 @@ const MainPage: React.FC = () => {
       <div className="min-h-[50vh] flex flex-col pt-32">
         <div className="text-6xl font-black">
           <h1>Me?</h1>
-          <div className='mt-24 flex gap-10'>
+          <div className='mt-24 md:flex md:gap-10 grid gap-y-10'>
             <div className='grid justify-items-center'>
               <a href='https://www.kyungheeboy.hs.kr/' target='_blank'>
                 <img src={require('../../assets/Kyunghee.png')} alt='' className='w-24 h-24 rounded-2xl' />
