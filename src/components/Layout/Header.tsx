@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header: React.FC = () => {
   return (
-    <div className="px-8 fixed top-0 left-0 w-full">
+    <div className="px-8 fixed top-0 left-0 w-full backdrop-blur-md">
       <div className="container mx-auto py-6 flex">
         <a
           className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-red-600 inline"
